@@ -1,0 +1,183 @@
+body {
+    margin: 0; /*убирает отступы фона по краям*/
+    font-family: 'Secular One', sans-serif;
+    background: url(o_nas_2.png);
+    width: 100%;
+    height: 30vw;
+    background-color: #B3AFAA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20vw;
+    overflow-x: hidden;
+}
+
+.shapka {
+    display: flex;
+    text-decoration:none;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+   
+    padding-top: 1vw; /*Внутренний отступ*/
+    /*эл-ты распалагаются в одну линию*/
+    align-items: center;
+    justify-content: left;
+    margin-left: 4vw;
+    
+}
+.nav-item {
+    
+    color: #2c2721;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;     
+    font-size: 1vw;
+    margin-right: 4.2vw;
+    margin-left: 1vw;
+    text-align: left;
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover { /*Наведение мышкой*/
+    color: #897367;
+}
+
+.num {
+    color: #3D3730;
+    text-decoration: none;
+    align-items: center;
+    transition: color 0.2s linear;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.num:hover {
+    color: #897367;
+}
+
+
+.cont {
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    padding-left: 23vw;
+    margin-top: 3vw;
+}
+.text {
+    color: #FFFFFF;
+    margin-top: 5.5vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+    font-weight: 600; 
+    color: #FFFFFF;
+}
+
+.info p{
+    text-align: center;
+    margin-right: 49vw;
+    margin-left: 6vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+        
+}
+
+.info a {
+    text-align: center;
+    margin-right: 4vw;
+    margin-left: 20.6vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: left;
+  }
+  
+.wrapper .icon {
+    position: relative;
+    background: #706a6af3;
+    border-radius: 10vw;
+    margin: 0.4vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 30vw 30vw 30vw rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 1vw;
+    background: #fff;
+    color: #fff;
+    padding: 1vw 1vw;
+    border-radius: 3vw;
+    box-shadow: 0 1vw 1vw rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+  
+.wrapper .tg:hover,
+.wrapper .tg:hover .tooltip,
+.wrapper .tg:hover .tooltip::before {
+    background: #1877F2;
+    color: #fff;
+}
+  
+.wrapper .vk:hover,
+.wrapper .vk:hover .tooltip,
+.wrapper .vk:hover .tooltip::before {
+    background: #0077FF;
+    color: #fff;
+}
+  
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #fff;
+}
+
+footer{
+    background-color:#D9D9D9 ;
+    height: 6vw;
+    display: flex;
+    align-items:center ;
+    position: relative;
+    justify-content: space-between;
+}
+.phone1{
+    margin-left: 65vw;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.num1 {
+    color: #4f4437;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 900;
+}
+.image_home {
+    width: 1vw;
+    height: 1vw;
+}
+.logo {
+    width: 2vw;
+    height: 2vw;
+}

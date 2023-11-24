@@ -1,0 +1,200 @@
+body {
+    margin: 0; /*убирает отступы фона по краям*/
+    font-family: 'Secular One', sans-serif;
+    background: url(cat.png);
+    width: 100vw;
+    height: 30vw;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20vw;
+}
+
+.shapka {
+    display: flex;
+    text-decoration:none;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+   
+    padding-top: 1vw; /*Внутренний отступ*/
+    /*эл-ты распалагаются в одну линию*/
+    align-items: center;
+    justify-content: left;
+    margin-left: 4vw;
+    
+}
+.nav-item {
+    
+    color: #2c2721;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;     
+    font-size: 1vw;
+    margin-right: 4.2vw;
+    margin-left: 1vw;
+    text-align: left;
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover { /*Наведение мышкой*/
+    color: #897367;
+}
+
+
+.logo {
+    width: 2vw;
+    height: 2vw;
+}
+
+.num {
+    color: #3D3730;
+    text-decoration: none;
+    align-items: center;
+    transition: color 0.2s linear;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.num:hover {
+    color: #897367;
+}
+.wrapper {
+    display: flex;
+    justify-content: left;
+  }
+  
+.wrapper .icon {
+    position: relative;
+    background: #706a6af3;
+    border-radius: 10vw;
+    margin: 0.4vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 30vw 30vw 30vw rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 1vw;
+    background: #fff;
+    color: #fff;
+    padding: 1vw 1vw;
+    border-radius: 3vw;
+    box-shadow: 0 1vw 1vw rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+  
+.wrapper .tg:hover,
+.wrapper .tg:hover .tooltip,
+.wrapper .tg:hover .tooltip::before {
+    background: #1877F2;
+    color: #fff;
+}
+  
+.wrapper .vk:hover,
+.wrapper .vk:hover .tooltip,
+.wrapper .vk:hover .tooltip::before {
+    background: #0077FF;
+    color: #fff;
+}
+  
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #fff;
+}
+
+footer{
+    margin-top: 14vw;
+    background-color:#D9D9D9 ;
+    height: 6vw;
+    display: flex;
+    align-items:center ;
+    position: relative;
+    justify-content: space-between;
+    position: fixed;
+}
+.phone1{
+    margin-left: 61.55vw;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.num1 {
+    color: #4f4437;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.form {
+
+    width: 25vw;
+    height: 20vw;
+    margin-top: 3vw;
+    font-weight: 700;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form p{
+    font-size: 2vw;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button {
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+
+.entrance{
+    width: 2vw;
+    height: 1vw;
+    border-radius: 1.6vw;
+    background-color: #3D3730;
+    box-shadow: 0 3vw 3vw rgba(0, 0, 0, 0.2);
+    
+    color: #e6c9c9;
+    font-size: 1vw;
+    text-decoration: none;
+    padding: 0.6vw 1vw;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 2vw;
+    transition: background-color 0.2s linear;
+}
+
+.entrance:hover {
+    background-color: #201d19;
+}
+.image_home {
+    width: 1vw;
+    height: 1vw;
+}
